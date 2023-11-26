@@ -58,6 +58,18 @@ module.exports = (_, argv) => ({
           requiredVersion: deps["react-dom"],
         },
       },
+      // shared: ["lodash"],
+      // shared: {
+      //   lodash: "^4.17.20",
+      // },
+      // shared: {
+      //   lodash: {
+      //     requiredVersion: "4.17.20",
+      //     singleton: true,
+      //     strictVersion: true,
+      //     shareScope: "community",
+      //   },
+      // },
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
