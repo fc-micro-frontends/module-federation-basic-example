@@ -1,0 +1,15 @@
+{
+  "name": "module-federation-basic-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --parallel start:live",
+    "build": "pnpm --parallel build",
+    "serve": "pnpm --parallel build:start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.10.0+sha1.77d568bacf41eeefd6695a7087c1282433955b5c"
+}
